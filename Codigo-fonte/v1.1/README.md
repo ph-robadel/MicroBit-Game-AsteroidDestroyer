@@ -11,8 +11,9 @@ Destroy all 100 asteroids as fast as you can. The score is based on the time (in
 #### Standby mode / Menu
 
 The game starts by loading the standby mode (or menu) which displays a happy face. To start playing, press either the A (Standard) or B (Hard) button.
-   - **Button A** - to start in Standard mode (the entire screen will be used to show the next asteroids)
-   - **Button B** - to start in Hard mode (only the next asteroid is shown)
+
+- **Button A** - to start in Standard mode (the entire screen will be used to show the next asteroids)
+- **Button B** - to start in Hard mode (only the next asteroid is shown)
 
 After any button is pressed, the game and the timer will start. At the end of the game, the time (in seconds) that the player took to destroy all asteroids will be shown, and will return to standby mode (happy face).
 
