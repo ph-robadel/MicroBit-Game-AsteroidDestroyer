@@ -1,30 +1,30 @@
 # Asteroid Destroyer
 
-Asteroid Destroyer é um jogo feito para ser jogado em um [BBC Micro:bit](https://microbit.org/) e foi escrito na linguagem de programação [MicroPython](https://micropython.org/).
+Asteroid Destroyer is a game made to be played on a [BBC Micro:bit](https://microbit.org/) and was written in the programming language [MicroPython](https://micropython.org/).
 
-## Instruções do Jogo
+## Game Instructions
 
-#### Objetivo
+#### objective
 
-Destrua todos os 100 asteroides o mais rápido possível. A pontuação é baseada no tempo (em segundos) em que o jogador levou para destrui todos os asteróides. 
+Destroy all 100 asteroids as fast as you can. The score is based on the time (in seconds) it took the player to destroy all asteroids.
 
-#### Modo espera / menu
+#### Standby mode / Menu
 
-O jogo inicia carregando o modo espera (ou menu) que exibe um rosto feliz. Para começar a jogar precione ou o botão A (Fácil) ou B (Difícil).
-    Botão A - para iniciar no modo fácil (toda tela será usada para mostrar os próximos asteroides)
-    Botão B - para iniciar no modo Difícil (apenas o próximo asteroide é mostrado)
+The game starts by loading the standby mode (or menu) which displays a happy face. To start playing, press either the A (Standard) or B (Hard) button.
+    Button A - to start in Standard mode (the entire screen will be used to show the next asteroids)
+    Button B - to start in Hard mode (only the next asteroid is shown)
 
-Depois que algum botão for precionado, o jogo e a contagem do tempo serão inicializados. No final do jogo será mostrado o tempo (em segundos) que o jogodor levou para destruir todos os asteroides, e voltará para o modo espera (rosto feliz).
+After any button is pressed, the game and the timer will start. At the end of the game, the time (in seconds) that the player took to destroy all asteroids will be shown, and will return to standby mode (happy face).
 
-#### Como jogar
+#### How to play
 
-Cada linha possui apenas um asteroide, e ele pode estar no lado esquerdo (1° Coluna) no centro (3° Coluna) ou na direta (5° Coluna), como é possível ver na imagem abaixo.
+Each line has only one asteroid, and it can be on the left (1st Column) in the center (3rd Column) or on the right (5th Column), as you can see in the image below.
 
 ![MicroBit](imagens/MicroBit.png)
 
-**Sempre destrua o asteroide que estiver na primeira linha**, as linhas abaixos são uma pré-visualização dos próximos asteroides que virão. 
+**Always destroy the asteroid on the first line**, the lines below are a preview of the next asteroids to come.
 
-Para destruir os asteroides que estão na primeira linha basta precionar:
-	Botão A - Para destruir os asteroides na coluna esquerda
-    Botão B - Para destruir os asteroides na coluna direita
-    Botão A+B - Para destruir os asteroides na coluna central
+To destroy the asteroids that are in the first line, just press:
+	Button A - To destroy the asteroids in the left column
+    Button B - To destroy the asteroids in the right column
+    Button A + B - To destroy asteroids in the central column
