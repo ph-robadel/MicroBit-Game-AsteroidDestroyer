@@ -10,9 +10,9 @@ Destrua todos os 100 asteroides o mais rápido que conseguir. A pontuação é b
 
 #### Modo espera / menu
 
-O jogo inicia carregando o modo espera (ou menu) que exibe um rosto feliz. Para começar a jogar pressione ou o botão A ou botão B.
-    **Botão A** - para iniciar o jogo com o asteroide a ser destruído piscando
-	**Botão B** - para iniciar o jogo sem ter algum asteroide piscando
+O jogo inicia carregando o modo espera (ou menu) que exibe um rosto feliz. Para começar a jogar pressione ou o botão A (Padrão) ou B (Difícil).
+    Botão A - para iniciar no modo Padrão (toda tela será usada para mostrar os próximos asteroides)
+    Botão B - para iniciar no modo Difícil (apenas o próximo asteroide é mostrado)
 
 Depois que algum botão for pressionado, o jogo e a contagem do tempo serão inicializados. No final do jogo será mostrado o tempo (em segundos) que o jogador levou para destruir todos os asteroides, e voltará para o modo espera (rosto feliz).
 
